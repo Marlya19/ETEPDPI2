@@ -1,0 +1,46 @@
+#ETE Porto Digital
+#Prof. Cloves Rocha
+class Estudante:
+ def __init__(self, nome_completo, nome, origem, tipo, nivel_dificuldade):
+   self.nome_completo = nome_completo
+   self.nome = nome
+   self.origem = origem
+   self.tipo = tipo
+   self.nivel_dificuldade = nivel_dificuldade
+
+maria = Estudante('Maria dos Santos', 'Mari', 'Trabalha', 'Maga', 2)
+print( maria.nome_completo + "\n" + maria.origem + "\n" + maria.tipo)
+
+
+#ETE Porto Digital
+#Prof. Cloves Rocha
+class Pessoas:
+ def __init__(self, nome, idade, genero):
+   self.nome = nome
+   self.idade = idade
+   self.genero = genero
+
+maria = Pessoas('Maria', '20', 'Feminino')
+print( maria.nome + "\n" + maria.idade + "\n" + maria.genero)
+
+#ETE Porto Digital
+#Prof. Cloves Rocha
+class Estudantes:
+ def __init__(self, nome, matricula, curso):
+   self.nome = nome
+   self.matricula = matricula
+   self.curso = curso
+
+maria = Estudantes('Maria', '01011929', 'Ciencia da Computacao')
+print( maria.nome + "\n" + maria.matricula + "\n" + maria.curso)
+
+#ETE Porto Digital
+#Prof. Cloves Rocha
+class Professores:
+ def __init__(self, nome, matricula, curso):
+   self.nome = nome
+   self.matricula = matricula
+   self.curso = curso
+
+maria = Professores('Maria', '01011697', 'Ciencia da Computacao')
+print( maria.nome + "\n" + maria.matricula + "\n" + maria.curso)
